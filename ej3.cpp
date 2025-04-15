@@ -26,11 +26,11 @@ int main() {
     int tamanio;
     int arreglo[100]; 
 
-    printf("Ingrese la cantidad de elementos del arreglo (máximo 100): ");
+    printf("Ingrese la cantidad de elementos del arreglo: ");
     scanf("%d", &tamanio);
 
     if (tamanio > 100 || tamanio <= 0) {
-        printf("Tamaño inválido.\n");
+        printf("Tamanio invalido.\n");
         return 1;
     }
 

@@ -17,7 +17,7 @@ void mostrarArreglo(int *arr, int tamanio) {
 int main() {
     int tamanio;
 
-    printf("Ingrese la cantidad de elementos del arreglo (maximo 100): ");
+    printf("Ingrese la cantidad de elementos del arreglo: ");
     scanf("%d", &tamanio);
 
     if (tamanio > 100 || tamanio <= 0) {
@@ -38,7 +38,7 @@ int main() {
     copiarArreglo(arreglo1, arreglo2, tamanio);
 
 
-    printf("\nContenido del segundo arreglo (copia): ");
+    printf("\nContenido del segundo arreglo: ");
     mostrarArreglo(arreglo2, tamanio);
 
     return 0;
